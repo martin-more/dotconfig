@@ -1,0 +1,7 @@
+alias vialiases="vim ~/.zsh_aliases"
+alias get-ports="sudo lsof -nPi -sTCP:LISTEN | grep TCP"
+alias get-cpu="sysctl -a | grep cpu | grep hw"
+# alias get-cpu="lscpu | grep -E '^Thread|^Core|^Socket|^CPU\('"   # linux
+# alias get-functions="print -l ${(ok)functions[(I)[^_]*]}"
+
+alias cdfundir="cd ~/functions/"
